@@ -40,7 +40,15 @@ be found in training.pynb file.
 file is added. The code when runs clicks pictures of person continuously and send them to trained model to detect the helmet or no_helmet class. If no helmet is found then
 a warning alarm is raised andit raises continuously till no_helmet detected.
 
-10. FUTURE SCOPE OF THE PROJECT-
+STEPS TO RUN INFERENCE-
+
+1. Install the prerequisites mentioned above.
+2. Change the paths of yolov4-tiny-obj.cfg, yolov4-tiny-obj_last.weights, obj.names and alarm.wav file in helmet3.py.
+3. Open command prompt at this path and write- python helmet3.py
+4. The webcam will start and it will start detecting continously unless interrupted using enter key. 
+
+FUTURE SCOPE OF THE PROJECT-
+
 At present this project can be used for bike riders implemented using appropriate hardware. The model is a bit slower on real time if used in mobile devices like raspberry pi.
 This can be made faster by converting into other faster formats like open vino format(.xml and .bin) or tensorflowlite. But converting this into these forms may lead to less 
 accuracy. So there is always a speed-accuracy trade-off. 
