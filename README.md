@@ -1,4 +1,4 @@
-# Helmet_detection
+# Real-time-Detection-System-of-Bike-Riders-without-Helmet
 INTRODUCTION TO THE PROJECT-
 
 This project detects whether a person is wearing helmet or not in real time. This project involves training of custom yolo model to detect two classes, namely - helmet and no_helemt
